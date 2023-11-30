@@ -52,4 +52,4 @@ def gauss(matrix: list, size_matrix: int):
     return [row[-1] for row in matrix]  # Возвращаем решения
 
 
-print(gauss(matrix, size_matrix))
+print("X = ", gauss(matrix, size_matrix))
